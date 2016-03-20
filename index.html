@@ -1,44 +1,42 @@
 <!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>TR10 TOOL  by neocarvajal</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  </head>
-  <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/neocarvajal/TR10-TOOL">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/neocarvajal/TR10-TOOL/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/neocarvajal/TR10-TOOL/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="stylesheets/github-dark.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
 
-    <div class="wrapper">
+  <title>TR10 TOOL </title>
+  <meta name="description" content="Bash Script For TR10CS1/TR10RS1 Intel Atom x86 ( Root + Gapps and Temp-Custom Recovery Tools) ">
 
-      <section>
-        <div id="title">
-          <h1>TR10 TOOL </h1>
-          <p>Bash Script For TR10CS1/TR10RS1 Intel Atom x86 ( Root + Gapps and Temp-Custom Recovery Tools) </p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/neocarvajal">neocarvajal</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">TR10 TOOL </h1>
+    </header>
+    <div id="container">
+      <p class="tagline">Bash Script For TR10CS1/TR10RS1 Intel Atom x86 ( Root + Gapps and Temp-Custom Recovery Tools) </p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/neocarvajal/TR10-TOOL/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/neocarvajal/TR10-TOOL/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/neocarvajal/TR10-TOOL" class="code">View TR10 TOOL  on GitHub</a>
         </div>
-
-        <p><img src="https://raw.githubusercontent.com/neocarvajal/TR10-TOOL/master/IMAGES/TR10-TOOL-BANNER.png" alt="by @neocarvajal" title="TR10-TOOL BANNER"></p>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <p><img src="https://raw.githubusercontent.com/neocarvajal/TR10-TOOL/master/IMAGES/TR10-TOOL-BANNER.png" alt="by @neocarvajal" title="TR10-TOOL BANNER"></p>
 
 <h1>
 <a id="chat-desarrolladores" class="anchor" href="#chat-desarrolladores" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Chat Desarrolladores</h1>
@@ -64,7 +62,9 @@
 <li>- Reiniciar en Droidboot (Fastboot)  (Bootloader/Fastboot)</li>
 <li>- Reiniciar en Recovery (Nativo)     (Recovery Mode)</li>
 <li>- Entrar en el shell del dispositivo (Un pequeño gran mundo en tu dispositivo)</li>
-<li>- Bypass Lock                        (Desbloquear dispositivo por PIN/CONTRASEÑA/PATRÓN)</li>
+<li>- Bypass Lock                        (Desbloquear dispositivo por PIN/CONTRASEÑA/</li>
+<li>- Opciones Multiflash                (Trabajar con varios dispositivos)
+PATRÓN)</li>
 </ol>
 
 <h1>
@@ -157,7 +157,7 @@ el error de que no encuentra el fichero).</p></li>
 </ol>
 
 <h1>
-<a id="video-guía-editando-video-nuevo" class="anchor" href="#video-gu%C3%ADa-editando-video-nuevo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Video Guía (editando video nuevo...)</h1>
+<a id="video-guía" class="anchor" href="#video-gu%C3%ADa" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Video Guía</h1>
 
 <p><a href="https://www.youtube.com/watch?v=Cm7QASoZeWk">https://www.youtube.com/watch?v=Cm7QASoZeWk</a></p>
 
@@ -177,17 +177,34 @@ el error de que no encuentra el fichero).</p></li>
 <ol>
 <li><p>Team Win Recovery Project <a href="https://github.com/omnirom/android_bootable_recovery/">TWRP</a> (repositorio official).</p></li>
 <li><p>Usuario <a href="http://forum.xda-developers.com/search.php?searchid=397303595">vampirefo</a> miembro de la comunidad <em>XDA</em> por el trabajo realizado con los recovery's temporales para los dispositivos Dell Vennue 8 (CWM/TRWP). </p></li>
+<li><p>Proyecto <a href="http://opengapps.org/">OpenGapps</a> </p></li>
 </ol>
 
 <h1>
 <a id="soportecontacto" class="anchor" href="#soportecontacto" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Soporte/Contacto</h1>
 
 <p>Para discusiones en cuanto al desarrollo y mejoras del script puedes visitar el chat de <a href="https://gitter.im/neocarvajal/TR10-TOOL">Desarrollo</a> y adicionalmente puedes encontrarme en #Twitter como <a href="https://twitter.com/neocarvajal">@neocarvajal</a></p>
-      </section>
-
+        </article>
+      </div>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-              <script type="text/javascript">
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/neocarvajal" class="avatar"><img src="https://avatars3.githubusercontent.com/u/3886811?v=3&amp;s=60" width="48" height="48"></a> <a href="https://github.com/neocarvajal">neocarvajal</a> maintains <a href="https://github.com/neocarvajal/TR10-TOOL">TR10 TOOL </a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/neocarvajal/TR10-TOOL/tarball/master" class="tar">tar</a><a href="https://github.com/neocarvajal/TR10-TOOL/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+            <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
@@ -198,5 +215,5 @@ el error de que no encuentra el fichero).</p></li>
             } catch(err) {}
           </script>
 
-  </body>
+</body>
 </html>
